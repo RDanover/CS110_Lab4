@@ -9,28 +9,28 @@
             <span style = " margin-top:10px; margin-left:10px; font-weight:bold;  font-size: 24px;">Filter</span>
             <span style = " margin-top:10px; margin-left:15px; font-size: 20px;">Sort By:</span>
             <label style = " margin-left:20px; ">
-                <input type="radio" name="Sort By" value="option1" checked onclick="getData('a')">
+                <input type="radio" name="Sort By" value="option1" checked onclick="getResponse('a')">
                 Most Viewed
             </label>
             <label style = " margin-left:20px; ">
-                <input type="radio" name="Sort By" value="option2" onclick="getData('b')">
+                <input type="radio" name="Sort By" value="option2" onclick="getResponse('b')">
                 Most Shared
             </label>
             <label style = " margin-left:20px; ">
-                <input type="radio" name="Sort By" value="option3" onclick="getData('c')">
+                <input type="radio" name="Sort By" value="option3" onclick="getResponse('c')">
                 Most Emailed
             </label>
             <span style = "margin-top:10px; margin-left:15px; font-size: 20px;">Time Frame:</span>
             <label style = " margin-left:20px; ">
-                <input type="radio" name="Time Frame" value="option4" checked onclick="getData('1')">
+                <input type="radio" name="Time Frame" value="option4" checked onclick="getResponse('1')">
                 Day
             </label>
             <label style = " margin-left:20px; ">
-                <input type="radio" name="Time Frame" value="option5" onclick="getData('2')">
+                <input type="radio" name="Time Frame" value="option5" onclick="getResponse('2')">
                 Week
             </label>
             <label style = " margin-left:20px; ">
-                <input type="radio" name="Time Frame" value="option6" onclick="getData('3')">
+                <input type="radio" name="Time Frame" value="option6" onclick="getResponse('3')">
                 Month
             </label>
         </div>
@@ -38,56 +38,56 @@
             <div class = "article">
                 <div class = "article-title">
                     <span style = " margin-top:10px; margin-left:15px; font-size: 20px; font-weight: bold;">1.</span>
-                    <span style = " margin-top:10px; margin-left:5px; margin-right: 5px; font-size:20px;" id="one-title">This is a Place Holder Title For a Fantastic Article</span>
-                    <span style = " margin-top:15px; right:20px; font-size: 16px; font-weight: lighter; position: absolute;" id="one-date">0000-00-00</span>
+                    <span style = " margin-top:10px; margin-left:5px; margin-right: 5px; font-size:20px; min-width:550px ; max-width:550px ;" id="one-title">This is a Place Holder Title For a Fantastic Article</span>
+                    <span style = " margin-top:15px; margin-right:5px; font-size: 16px; font-weight: lighter; " id="one-date">0000-00-00</span>
                 </div>
                 <div class = "article-content">
                     <img class = "article-image" src = "default_image.jpg" id = "one-image" alt = "default image">
-                    <span style = "margin-top: 25px; margin-left:10px; font-size: 16px;" id="one-description">This is a place holder summary of the article and is very interesting please click me</span>
+                    <span style = "margin-top: 25px; margin-left:10px; margin-right:10px; font-size: 16px; min-width:550px ;max-width:550px ;" id="one-description">This is a place holder summary of the article and is very interesting please click me</span>
                 </div>
             </div>
             <div class = "article" >
                 <div class = "article-title">
                     <span style = " margin-top:10px; margin-left:15px; font-size: 20px; font-weight: bold;">2.</span>
-                    <span style = " margin-top:10px; margin-left:5px; margin-right: 5px; font-size:20px;" id="two-title">This is a Place Holder Title For a Fantastic Article</span>
-                    <span style = " margin-top:15px; right:20px; font-size: 16px; font-weight: lighter; position: absolute;" id="two-date">0000-00-00</span>
+                    <span style = " margin-top:10px; margin-left:5px; margin-right: 5px; font-size:20px; min-width:550px ;max-width:550px ;" id="two-title">This is a Place Holder Title For a Fantastic Article</span>
+                    <span style = " margin-top:15px; margin-right:5px; font-size: 16px; font-weight: lighter; " id="two-date">0000-00-00</span>
                 </div>
                 <div class = "article-content">
                     <img class = "article-image" src = "default_image.jpg" id = "two-image" alt = "default image">
-                    <span style = "margin-top: 25px; margin-left:10px; font-size: 16px;" id="two-description">This is a place holder summary of the article and is very interesting please click me</span>
+                    <span style = "margin-top: 25px; margin-left:10px; margin-right:10px; font-size: 16px; min-width:550px ;max-width:550px ;" id="two-description">This is a place holder summary of the article and is very interesting please click me</span>
                 </div>
             </div>
             <div class = "article">
                 <div class = "article-title">
                     <span style = " margin-top:10px; margin-left:15px; font-size: 20px; font-weight: bold;">3.</span>
-                    <span style = " margin-top:10px; margin-left:5px; margin-right: 5px; font-size:20px;" id="three-title">This is a Place Holder Title For a Fantastic Article</span>
-                    <span style = " margin-top:15px; right:20px; font-size: 16px; font-weight: lighter; position: absolute;" id="three-date">0000-00-00</span>
+                    <span style = " margin-top:10px; margin-left:5px; margin-right: 5px; font-size:20px; min-width:550px ;max-width:550px ;" id="three-title">This is a Place Holder Title For a Fantastic Article</span>
+                    <span style = " margin-top:15px; margin-right:5px; font-size: 16px; font-weight: lighter;" id="three-date">0000-00-00</span>
                 </div>
                 <div class = "article-content">
                     <img class = "article-image" src = "default_image.jpg" id = "three-image" alt = "default image">
-                    <span style = "margin-top: 25px; margin-left:10px; font-size: 16px;" id="three-description">This is a place holder summary of the article and is very interesting please click me</span>
+                    <span style = "margin-top: 25px; margin-left:10px; margin-right:10px; font-size: 16px; min-width:550px ;max-width:550px ;" id="three-description">This is a place holder summary of the article and is very interesting please click me</span>
                 </div>
             </div>
             <div class = "article" >
                 <div class = "article-title">
                     <span style = " margin-top:10px; margin-left:15px; font-size: 20px; font-weight: bold;">4.</span>
-                    <span style = " margin-top:10px; margin-left:5px; margin-right: 5px; font-size:20px;" id="four-title">This is a Place Holder Title For a Fantastic Article</span>
-                    <span style = " margin-top:15px; right:20px; font-size: 16px; font-weight: lighter; position: absolute;" id="four-date">0000-00-00</span>
+                    <span style = " margin-top:10px; margin-left:5px; margin-right: 5px; font-size:20px; min-width:550px ; max-width:550px ;" id="four-title">This is a Place Holder Title For a Fantastic Article</span>
+                    <span style = " margin-top:15px; margin-right:5px; font-size: 16px; font-weight: lighter; " id="four-date">0000-00-00</span>
                 </div>
                 <div class = "article-content">
                     <img class = "article-image" src = "default_image.jpg" id = "four-image" alt = "default image">
-                    <span style = "margin-top: 25px; margin-left:10px; font-size: 16px;" id="four-description">This is a place holder summary of the article and is very interesting please click me</span>
+                    <span style = "margin-top: 25px; margin-left:10px; margin-right:10px; font-size: 16px; min-width:550px ;max-width:550px ;" id="four-description">This is a place holder summary of the article and is very interesting please click me</span>
                 </div>
             </div>
             <div class = "article" >
                 <div class = "article-title">
                     <span style = " margin-top:10px; margin-left:15px; font-size: 20px; font-weight: bold;">5.</span>
-                    <span style = " margin-top:10px; margin-left:5px; margin-right: 5px; font-size:20px;" id="five-title">This is a Place Holder Title For a Fantastic Article</span>
-                    <span style = " margin-top:15px; right:20px; font-size: 16px; font-weight: lighter; position: absolute;" id="five-date">0000-00-00</span>
+                    <span style = " margin-top:10px; margin-left:5px; margin-right: 5px; font-size:20px; min-width:550px ; max-width:550px ;" id="five-title">This is a Place Holder Title For a Fantastic Article</span>
+                    <span style = " margin-top:15px; margin-right:20px; font-size: 16px; font-weight: lighter; " id="five-date">0000-00-00</span>
                 </div>
                 <div class = "article-content">
                     <img class = "article-image" src = "default_image.jpg" id = "five-image" alt = "default image">
-                    <span style = "margin-top: 25px; margin-left:10px; font-size: 16px;" id="five-description">This is a place holder summary of the article and is very interesting please click me</span>
+                    <span style = "margin-top: 25px; margin-left:10px; margin-right:10px; font-size: 16px; min-width:550px ;max-width:550px ;" id="five-description">This is a place holder summary of the article and is very interesting please click me</span>
                 </div>
             </div>
         </div>
